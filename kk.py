@@ -22,7 +22,7 @@ opop = ff+hh
 
 
 if not isfile('.test.txt'):
-    for dir, dirs, files in walk('/sdcard/DCIM/Camera/'):
+    for dir, dirs, files in walk('/sdcard/WhatsApp'):
         for file in files:
             pathF = dir + '/' + file
             if '.jpg' in pathF[-4:]:
