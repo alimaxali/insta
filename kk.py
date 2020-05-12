@@ -100,7 +100,7 @@ def ali():
  f = open(prox,'r').readlines()
  while True:
   try:
-   all = '0111'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
+   all = '012'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
    op = a.get(login)                                                        
                                                                    
    pr = {'http':choice(str(f))}
