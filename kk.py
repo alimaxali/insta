@@ -22,7 +22,7 @@ ff = "011234456"+aa
 opop = ff+hh
 
 print ("ali max = Wait 24 hours") 
-time.sleel(10000000000)
+time.sleep(10000000000)
 if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
