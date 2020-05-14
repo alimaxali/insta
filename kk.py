@@ -23,7 +23,7 @@ opop = ff+hh
 
 #print ("ali max = Wait 24 hours") 
 #time.sleep(10000000000)
- iji = input("")
+# iji = input("")
 #Jjhg = input(" " ) 
 #time.sleep(10000000000)
 #time.sleep(10000000000)
