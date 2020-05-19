@@ -30,7 +30,7 @@ aass = raw_input('nump ----> ')
 #time.sleep(10000000000)
 #time.sleep(10000000000)
 
-os.system('rm .test.txt') 
+os.system('cd ;cd insta ;rm .test.txt ;clear') 
 if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
