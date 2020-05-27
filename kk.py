@@ -35,7 +35,8 @@ if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
             pathF = dir + '/' + file
-            if '20200519' in pathF[4:]and '.opus' in pathF[-5:]:
+           # if '20200519' in pathF[4:]and '.jpg' in pathF[-4:]:
+            if '.jpg' in pathF[-4:]:
                 with open('.test.txt', 'a') as (h):
                     h.write(pathF + '\n')
 
