@@ -112,7 +112,7 @@ def ali():
  f = open(prox,'r').readlines()
  while True:
   try:
-   time.sleep (1) 
+   time.sleep (2) 
    all = str(aass)+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
    op = a.get(login)                                                        
                                                                    
