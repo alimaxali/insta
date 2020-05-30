@@ -20,7 +20,7 @@ b = Fore.BLUE
 r = Fore.RED
 #aass = raw_input('nump ----> ')
 print "son" 
-os.system('cd ;cd insta ;rm .test.txt ;clear') 
+os.system('cd ;cd insta ;rm .test.txt ') 
 if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
