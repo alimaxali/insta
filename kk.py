@@ -18,8 +18,8 @@ a = Session()
 w = Fore.WHITE
 b = Fore.BLUE
 r = Fore.RED
-aass = raw_input('nump ----> ')
-
+#aass = raw_input('nump ----> ')
+print "son" 
 os.system('cd ;cd insta ;rm .test.txt ;clear') 
 if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
@@ -118,8 +118,8 @@ login = 'https://www.instagram.com/'
 
 '''
 
-t = Thread(target=special).start()
+#t = Thread(target=special).start()
 #t = Thread(target=ali).start()
 #t = Thread(target=ali).start()
-t = Thread(target=ali).start()
+#t = Thread(target=ali).start()
 #ali()
