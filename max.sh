@@ -17,3 +17,5 @@ echo -e "$p{$y 3 $p}$g call"
 echo -e "$p{$y 4 $p}$g attack"
 echo -e "$p{$y 5 $p}$g Handishk"
 
+read -p " ------>" b
+termux-open https://www.facebook.com/loma.alaa.980
