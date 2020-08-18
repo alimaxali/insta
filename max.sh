@@ -10,6 +10,7 @@ reset='\033[0m'
 y='\033[1;33m'
 #ww = nano l.sh
 
+echo -e "$g        Loma Alaa"
 
 echo -e "$p{$y 1 $p}$g chat"
 echo -e "$p{$y 2 $p}$g facebook"
